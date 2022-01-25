@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100%;
+  text-align: center;
+  background-color: #DAF7A6 ;
+  padding: 5%;
+}
+
+.task {
+  background-color: rgba(255, 255, 255, 0.822) ;
+  padding: 5%;
+}
+
+.task__subtitle {
+  font-size: 25px;
+}
+
+.task__new {
+  padding: 2%;
+}
+
+#task__list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  list-style: none;
+}
+
+.task__add--btn {
+  border-radius: 10%;
+  padding: 2%;
+}
+
+.task__text {
+  margin: 2%;
+  font-size: 20px;
+}
+
+.task__check {
+  margin:15px;
+}
+
+@media (min-width: 1024px){
+  body {
+    padding: 0% 30% 0% 30%
+  }
+}
